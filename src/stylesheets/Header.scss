@@ -1,0 +1,33 @@
+@import './index.scss'; 
+
+header {
+    background: $salmon;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    font-family: $heading-font-family;
+    font-size: 42px;
+    font-weight: lighter;
+    color: white;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+  
+  .stripe {
+    background: $hellayellow;
+    color: $darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }

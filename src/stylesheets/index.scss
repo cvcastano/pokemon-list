@@ -1,0 +1,44 @@
+
+//Colors
+$lightblue: #d7f7fe;
+$darkblue: #1a577f;
+$medblue: #1f729c;
+$salmon: #ff6067;
+$hellayellow: #f7ee1a;
+
+//Typography
+$base-font-size: 16px;
+$base-font-family: "Nunito", sans-serif;
+$heading-font-family: "Righteous", cursive;
+
+* {
+  transition: all 0.65s ease;
+  box-sizing: border-box;
+}
+
+body {
+  background: $lightblue;
+  font-family: $base-font-family;
+  color: #222;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App-logo {
+  height: 20px;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
