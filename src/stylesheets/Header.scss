@@ -1,6 +1,6 @@
 @import './index.scss'; 
 
-header {
+.header {
     background: $salmon;
     color: white;
     padding: 10px;
@@ -10,7 +10,7 @@ header {
     flex-wrap: wrap;
   }
   
-  h1 {
+  .title {
     font-family: $heading-font-family;
     font-size: 42px;
     font-weight: lighter;
@@ -23,7 +23,7 @@ header {
     font-weight: lighter;
   }
   
-  .stripe {
+  .header-stripe {
     background: $hellayellow;
     color: $darkblue;
     display: flex;

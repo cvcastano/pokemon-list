@@ -1,6 +1,6 @@
 @import './index.scss';
 
-footer {
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -9,7 +9,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 13px;
-    a {
+    .link {
       color: $hellayellow;
       text-decoration: none;
       border-bottom: 1px solid;
