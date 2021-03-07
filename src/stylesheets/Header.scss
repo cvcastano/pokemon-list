@@ -1,51 +1,51 @@
-@import './index.scss'; 
+@import "./index.scss";
 
 .header {
-    background: $salmon;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .title {
-    font-family: $heading-font-family;
-    font-size: 42px;
-    font-weight: lighter;
-    color: white;
-  }
-  
-  .tagline {
-    font-size: 18px;
-    font-style: italic;
-    font-weight: lighter;
-  }
-  
-  .header-stripe {
-    background: $hellayellow;
-    color: $darkblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    margin-bottom: 20px;
-  }
+  background: $salmon;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: $heading-font-family;
+  font-size: 42px;
+  font-weight: lighter;
+  color: white;
+}
+
+.tagline {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.header-stripe {
+  background: $hellayellow;
+  color: $darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+.App-logo {
+  height: 20px;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    height: 20px;
-    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
   }
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
   }
+}
