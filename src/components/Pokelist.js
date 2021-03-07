@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/Pokelist.scss';
 import Pokemon from './Pokemon';
+import PropTypes from 'prop-types';
 
 class Pokelist extends React.Component {
     constructor(props) {
@@ -25,5 +26,10 @@ class Pokelist extends React.Component {
         )
     }
 }
+
+Pokemon.propTypes = {
+    id: PropTypes.number
+}
+
 
 export default Pokelist;
