@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Main.scss';
+import '../stylesheets/Pokemon.scss';
 
 class Pokemon extends React.Component {
     constructor(props) {
@@ -7,9 +7,7 @@ class Pokemon extends React.Component {
     }
 
     render() {
-        const {
-            props,
-        } = this;
+        const { props, } = this;
 
         const types = props.pokemon.types.map((type, index) => {
             return (

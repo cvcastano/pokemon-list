@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Main.scss';
+import '../stylesheets/Pokelist.scss';
 import Pokemon from './Pokemon';
 
 class Pokelist extends React.Component {
@@ -17,7 +17,7 @@ class Pokelist extends React.Component {
             )
         });
         return (
-            <main className="main">
+            <main>
                 <ul className="pokelist">
                     {pokecard}
                 </ul>
